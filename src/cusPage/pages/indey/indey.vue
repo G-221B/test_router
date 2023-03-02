@@ -11,13 +11,10 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'indey 页面'
 			}
 		},
 		onLoad() {
-            uni.$Router.replaceAll({
-                name: 'indey'
-            })
 		},
 		methods: {
 

@@ -1,12 +1,31 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+            "name": "index",
+            "meta": {
+                "redirectName": "indey"
+            },
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "hickeyPage"
 			}
 		}
 	],
+    "subPackages": [
+        {
+            "root": "cusPage",
+            "name": "cusPage",
+            "pages": [
+                {
+                    "name": "indey",
+                    "path": "pages/indey/indey",
+                    "style": {
+                        "navigationBarTitleText": "真正首页"
+                    }
+                }
+            ]
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
